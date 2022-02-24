@@ -20,7 +20,6 @@ class CategoriesController extends Component
         $this->pagetitle='Listado';
         $this->componentName='Categoria';
         $this->selected_id= 0;
-        //$this->search='a';
     }
 
     public function paginationView(){ //Paginacion personalizada

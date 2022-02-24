@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\CategoriesController;
-
+use App\Http\Livewire\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('categories', CategoriesController::class); //Creamos el nombre de la ruta del componente y va a ejecutar la funcion render del controlador;
+
+Route::get('products', ProductController::class);

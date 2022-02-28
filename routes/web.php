@@ -29,4 +29,4 @@ Route::get('products', ProductController::class);
 
 Route::get('pos', PosController::class);
 
-Route::get('select2', Select2::class);
+// Route::get('select2', Select2::class);
